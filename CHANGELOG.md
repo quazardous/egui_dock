@@ -12,6 +12,10 @@
 - `SeparatorStyle::arrow_key_step_distance`: how far a focused separator moves per arrow key press.
 - Accessibility (AccessKit) support for tabs, separators and tab bars ([#345](https://github.com/anhosh/egui_dock/pull/345)).
 
+### Breaking changes
+
+- Upgraded to egui 0.37.
+
 ### Fixed
 
 - Window heights now account for frame margins, consistent with changes in [emilk/egui#8154](https://github.com/emilk/egui/pull/8154). ([#341](https://github.com/anhosh/egui_dock/issues/341))
